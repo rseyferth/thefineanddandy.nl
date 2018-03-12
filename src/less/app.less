@@ -1,0 +1,158 @@
+@import "normalize.css";
+
+@color-highlight: #a5d3b4;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: black;
+  font-family: 'Lato';
+  color: white;
+}
+
+.thin-header {
+  font-weight: 100;
+  letter-spacing: 15px;
+  font-size: 35px;
+}
+
+header {
+  background: fade(black, 75%);
+  height: 140px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 60px;
+
+  .logo {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+
+    span {
+      font-size: 21px;
+
+      &:first-child {
+        display: block;
+      }
+
+      &:last-child:after {
+        content: "\A";
+        white-space: pre;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    padding: 0;
+    display: flex;
+    width: 580px;
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      transition: all 200ms ease-out;
+
+      &:after {
+        content: '';
+        display: block;
+        position: relative;
+        border-top: solid 1px @color-highlight;
+        border-bottom: solid 1px @color-highlight;
+        width: 100%;
+        height: 2px;
+        top: 3px;
+        opacity: 0;
+        transition: all 200ms ease-out;
+      }
+
+      &:hover {
+        color: @color-highlight;
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+    }
+  }
+}
+
+.main-image {
+  background: url('../img/main.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #next-show {
+    h2 {
+      .thin-header();
+      text-align: center;
+      margin: 10px 0;
+    }
+    span {
+      color: @color-highlight;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 4px black;
+      padding: 0 10px;
+      &.date {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+section {
+  padding: 50px 0;
+
+  h2 {
+    .thin-header();
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .media-item {
+    padding: 0 20px;
+    max-width: 850px;
+    margin: auto;
+  }
+
+  &.videos {
+    .video {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+
+      iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &.audio {
+    iframe {
+      width: 100%;
+      height: 120px;
+    }
+  }
+}

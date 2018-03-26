@@ -11,6 +11,9 @@ export default class Menu extends React.Component {
         <div className="logo">
           <span>The</span> Fine <span>and</span> Dandy
         </div>
+        <div className="logo-mobile">
+          <span>The</span> Fine <span>and</span> Dandy
+        </div>
         <ul>
           {menuItems.map((title, index) => <li key={index}>{title}</li>)}
         </ul>

@@ -3,7 +3,7 @@ var path = require('path');
 var moment = require('moment');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/app.es6'),
+  entry: path.resolve(__dirname, 'src/index.es6'),
   output: {
     path: __dirname + '/dist',
     publicPath: '/',

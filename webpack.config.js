@@ -25,8 +25,12 @@ module.exports = {
         use: ['style-loader' ,'css-loader', 'less-loader']
       },
       {
-        test: /(\.jpg)$/,
+        test: [/\.jpg/, /\.svg$/],
         use: ['file-loader']
+      },
+      {
+        test: /(\.html)$/,
+        use: ['html-loader']
       }
     ]
   }

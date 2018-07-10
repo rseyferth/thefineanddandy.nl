@@ -5,8 +5,10 @@ import configureStore from './store/configureStore.es6';
 
 import App from './components/App.es6';
 
-const less = require('./less/app.less');
+//const html = require('./index.html');
 
+const html = require("html-loader!./index.html");
+const less = require('./less/app.less');
 const store = configureStore();
 
 ReactDOM.render(<App store={store} />, document.getElementById('app'));

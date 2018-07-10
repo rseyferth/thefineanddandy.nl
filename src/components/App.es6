@@ -47,6 +47,7 @@ class App extends React.Component {
 
     return (
       <div className={ this.state.imageScrollClass }>
+        <a name="home" />
         <div>
           <Menu />
         </div>
@@ -54,6 +55,7 @@ class App extends React.Component {
           <NextShow store={this.props.store}/>
         </div>
 
+        <a name="video" />
         <section className="videos">
           <h2>VIDEO</h2>
           <div className="media-item">
@@ -63,18 +65,27 @@ class App extends React.Component {
           </div>
         </section>
 
+        <a name="audio" />
         <section className="audio">
           <h2>AUDIO</h2>
           <div className="media-item">
             <iframe scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182828472&color=%23a5d3b4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           </div>
+          <div className="media-item">
+            <iframe scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157958015&color=%23a5d3b4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
+          <div className="media-item">
+            <iframe scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164975334&color=%23a5d3b4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
         </section>
 
+        <a name="shows" />
         <section className="shows">
           <h2>SHOWS</h2>
           <Shows store={this.props.store} />
         </section>
 
+        <a name="contact" />
         <section className="contact">
           <h2>CONTACT</h2>
           <div>Contact us at <a href="mailto:dandy@thefineanddandy.nl">dandy@thefineanddandy.nl</a></div>

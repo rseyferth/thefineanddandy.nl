@@ -5,15 +5,15 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/eseyferth/fineanddandy.nl.git"
+    "url": "git+ssh://git@github.com:rseyferth/thefineanddandy.nl.git"
   },
   "author": "Erik Seyferth <erik@goatproductions.nl> (http://goatproductions.nl)",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/eseyferth/fineanddandy.nl#readme",
   "dependencies": {
     "moment": "^2.21.0",
     "normalize.css": "^8.0.0",
@@ -37,7 +37,7 @@
     "less-loader": "^4.1.0",
     "path": "^0.12.7",
     "style-loader": "^0.20.3",
-    "webpack": "^4.1.1",
+    "webpack": "^4.16.5",
     "webpack-dev-server": "^3.1.1"
   }
 }

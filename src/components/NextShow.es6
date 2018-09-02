@@ -9,7 +9,12 @@ class NextShow extends React.Component {
     let nextShow = this.getNextShowFromShows(this.props.shows);
 
     if (!nextShow) {
-      return null;
+      return(
+        <div className="next-show">
+          <h2>COMING SOON</h2>
+          <span>Newly recorded songs</span>
+        </div>
+      )
     }
 
     return (
@@ -24,15 +29,18 @@ class NextShow extends React.Component {
 
   getNextShowFromShows(shows) {
     if (shows.length < 1) { return false; }
-    if (shows.length === 1) return _.first(shows);
 
-    return _.first(
+    let futureShow = _.first(
       _.sortBy(
         _.filter(shows, (show) => {
+          let test = moment(show.date) >= moment();
           return moment(show.date) >= moment();
         }),
       'date')
     );
+
+    if (!futureShow) return false;
+    return futureShow;
   }
 }
 

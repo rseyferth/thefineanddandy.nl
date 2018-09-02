@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+  import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux';
 import { showsFetchData } from '../actions/shows.es6';
 import moment from 'moment';
@@ -6,7 +6,7 @@ import moment from 'moment';
 class Shows extends React.Component {
   render() {
     return (
-      <div className='shows-table'>
+      <div className="shows-table">
         <div className="show-row show-head">
           <div>Date</div>
           <div>Event</div>

@@ -85,6 +85,14 @@ class App extends React.Component {
           <Shows store={this.props.store} />
         </section>
 
+        <a name="about" />
+        <section className="about">
+          <h2>ABOUT</h2>
+          <div class="info-item">
+            The Fine and Dandy is een band die je gezien moet hebben. Deze Amsterdammers maken puntgave liedjes met een kop en een staart, die je eigenlijk meteen mee wil zingen. Denk: The Kinks maar dan anno nu, in het bezit van een vrolijke fuck-you-mentaliteit. Het nu eens ruige, dan weer gevoelige showmanship van zanger Erik Seyferth en zijn mannen pakt je direct in en laat je niet meer los. Met nummers over melkpakken, echte mannen, lange vrouwen en natuurlijk de liefde!
+          </div>
+        </section>
+
         <a name="contact" />
         <section className="contact">
           <h2>CONTACT</h2>

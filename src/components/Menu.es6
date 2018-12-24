@@ -13,7 +13,7 @@ export default class Menu extends React.Component {
 
   render() {
     const menuItems = [
-      'home', 'video', 'audio', 'shows', 'contact'
+      'home', 'video', 'audio', 'shows', 'about', 'contact'
     ];
 
     return (

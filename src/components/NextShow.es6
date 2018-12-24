@@ -7,6 +7,24 @@ import moment from 'moment';
 class NextShow extends React.Component {
   render() {
     let nextShow = this.getNextShowFromShows(this.props.shows);
+    let promo = {
+      title: 'NEW EP: THE CHICKEN IN THE LORD',
+      descriptions: [
+        'Available soon on all music streaming services',
+        'Release @ Cinetol: 12 Jan 2019 - 20:30'
+      ]
+    };
+
+    if (promo) {
+      return(
+        <div className="next-show">
+          <h2>{ promo.title }</h2>
+          {promo.descriptions.map((description) => (
+            <div><span>{description}</span></div>
+          ))}
+        </div>
+      )
+    }
 
     if (!nextShow) {
       return(

@@ -12,6 +12,3 @@ const less = require('./less/app.less');
 const store = configureStore();
 
 ReactDOM.render(<App store={store} />, document.getElementById('app'));
-
-//ReactDOM.render(<Menu />, document.getElementById('menu'));
-//ReactDOM.render(<Shows store={store} />, document.getElementById('shows'));

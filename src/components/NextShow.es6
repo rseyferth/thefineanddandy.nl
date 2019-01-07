@@ -8,7 +8,7 @@ class NextShow extends React.Component {
   render() {
     let nextShow = this.getNextShowFromShows(this.props.shows);
     let promo = {
-      title: 'NEW EP: THE CHICKEN IN THE LORD',
+      title: 'NEW EP: CHICKEN IN THE LORD',
       descriptions: [
         'Available soon on all music streaming services',
         'Release @ Cinetol: 12 Jan 2019 - 20:30'

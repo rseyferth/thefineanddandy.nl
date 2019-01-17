@@ -10,8 +10,7 @@ class NextShow extends React.Component {
     let promo = {
       title: 'NEW EP: CHICKEN IN THE LORD',
       descriptions: [
-        'Available soon on all music streaming services',
-        'Release @ Cinetol: 12 Jan 2019 - 20:30'
+        'Available soon on all music streaming services'
       ]
     };
 
@@ -19,9 +18,11 @@ class NextShow extends React.Component {
       return(
         <div className="next-show">
           <h2>{ promo.title }</h2>
-          {promo.descriptions.map((description) => (
-            <div><span>{description}</span></div>
-          ))}
+          <div><span>Get it on <a href="https://thefineanddandy.bandcamp.com/releases" target="_blank">Bandcamp</a></span></div>
+          { promo.descriptions.map((description) => (
+            <div><span>{ description }</span></div>
+          )) }
+          <div><span>Listen to us at <a href="https://boradcastamsterdam" target="_blank">Broadcast Amsterdam Radio</a></span></div>
         </div>
       )
     }

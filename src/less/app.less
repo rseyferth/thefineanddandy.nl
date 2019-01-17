@@ -256,6 +256,10 @@ header {
       &.date {
         font-weight: 700;
       }
+
+      a {
+        color: #FFF;
+      }
     }
   }
 }
@@ -328,11 +332,15 @@ section {
   }
 
   &.videos {
+    .media-item {
+      padding-bottom: 40px;
+    }
     .video {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
+
 
       iframe, object, embed {
         position: absolute;

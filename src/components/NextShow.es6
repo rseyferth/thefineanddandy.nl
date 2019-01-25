@@ -9,20 +9,14 @@ class NextShow extends React.Component {
     let nextShow = this.getNextShowFromShows(this.props.shows);
     let promo = {
       title: 'NEW EP: CHICKEN IN THE LORD',
-      descriptions: [
-        'Available soon on all music streaming services'
-      ]
     };
 
     if (promo) {
       return(
         <div className="next-show">
           <h2>{ promo.title }</h2>
-          <div><span>Get it on <a href="https://thefineanddandy.bandcamp.com/releases" target="_blank">Bandcamp</a></span></div>
-          { promo.descriptions.map((description) => (
-            <div><span>{ description }</span></div>
-          )) }
-          <div><span>Listen to us at <a href="https://boradcastamsterdam" target="_blank">Broadcast Amsterdam Radio</a></span></div>
+          <div><span>Listen to it on <a href="https://spoti.fi/2RbwqGs" target="_blank">Spotify</a>, <a href="https://www.deezer.com/nl/album/85083422">Deezer</a>
+          , <a href="https://thefineanddandy.bandcamp.com/releases" target="_blank">Bandcamp</a> and other streaming services</span></div>
         </div>
       )
     }

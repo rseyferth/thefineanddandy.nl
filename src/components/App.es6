@@ -60,7 +60,7 @@ class App extends React.Component {
           <h2>VIDEO</h2>
           <div className="media-item">
             <div className="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/q45xG15j9k0"  allowFullScreen="true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/q45xG15j9k0?origin=https://thefineanddandy.nl"  allowFullScreen="true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
 

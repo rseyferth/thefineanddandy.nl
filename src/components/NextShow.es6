@@ -7,9 +7,7 @@ import moment from 'moment';
 class NextShow extends React.Component {
   render() {
     let nextShow = this.getNextShowFromShows(this.props.shows);
-    let promo = {
-      title: 'NEW EP: CHICKEN IN THE LORD',
-    };
+    let promo = null;
 
     if (promo) {
       return(

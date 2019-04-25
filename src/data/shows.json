@@ -1,7 +1,19 @@
 [{
     "date": "2019-04-27",
-    "time": "TBD",
+    "time": "14:15",
     "title": "Bredeweg Festival",
-    "location": "Bredeweg, Amsterdam"
+    "location": "Tussen de Bomen, Bredeweg, Amsterdam"
+  },
+  {
+    "date": "2019-05-04",
+    "time": "20:30",
+    "title": "Betondorp Live!",
+    "location": "Landbouwstraat 63, Amsterdam"
+  },
+  {
+    "date": "2019-05-18",
+    "time": "21:00",
+    "title": "De Bakkerij, Castricum",
+    "location": "Dorpsstraat 30, Castricum"
   }
 ]

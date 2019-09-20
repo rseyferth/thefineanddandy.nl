@@ -9,6 +9,12 @@ class NextShow extends React.Component {
     let nextShow = this.getNextShowFromShows(this.props.shows);
     let promo = null;
 
+    if (!nextShow) {
+      promo = {
+        title: 'CHICKEN IN THE LORD'
+      };
+    }
+
     if (promo) {
       return(
         <div className="next-show">
@@ -19,14 +25,7 @@ class NextShow extends React.Component {
       )
     }
 
-    if (!nextShow) {
-      return(
-        <div className="next-show">
-          <h2>COMING SOON</h2>
-          <span>Newly recorded songs</span>
-        </div>
-      )
-    }
+    
 
     return (
       <div className="next-show">

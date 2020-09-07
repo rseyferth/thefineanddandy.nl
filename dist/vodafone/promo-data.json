@@ -1,91 +1,354 @@
 [
-  {
-    "customerTypes": [
-      "converged"
-    ],
-    "iconclass": "plus",
-    "orderTypes": [
-      "acquisition"
-    ],
-    "popupContent": "<p>content</p>",
-    "subscriptionIds": [
-      "start-m",
-      "start-xl",
-      "red-essential"
-    ],
-    "text": "Nu met iets!",
-    "type": "subscription-usp"
-  },
-  {
-    "customerTypes": [
-      "non-converged"
-    ],
-    "endTime": "2020-09-30 22:00",
-    "importance": "medium",
-    "startTime": "2020-08-31 22:00",
-    "subscriptionIds": [
-      "start-xl",
-      "red",
-      "red-unlimited"
-    ],
-    "text": "Voor bij u thuis!",
-    "type": "subscription-promo"
-  },
-  {
-    "imageUrl": "/some/image/in/hawaii",
-    "importance": "low",
-    "type": "top-banner-promo",
-    "usps": [
-      "hello",
-      "sunshine",
-      "!"
-    ]
-  },
-  {
-    "customerTypes": [
-      "non-converged"
-    ],
-    "deviceIds": [
-      "apple-iphone-11-256gb",
-      "apple-iphone-11-64gb"
-    ],
-    "location": "top",
-    "orderTypes": [
-      "retention"
-    ],
-    "popupContent": "<p>korting!</p>",
-    "subscriptionIds": [
-      "red-together"
-    ],
-    "type": "receipt-promo"
-  },
-  {
-    "customerTypes": [
-      "non-converged"
-    ],
-    "endTime": "2020-09-01 22:00",
-    "importance": "medium",
-    "orderTypes": [
-      "acquisition"
-    ],
-    "startTime": "2020-09-01 10:00",
-    "text": "Hundle Bundle Crundle Prundle",
-    "type": "bundle-promo"
-  },
-  {
-    "deviceIds": [
-      "apple-iphone-11-128gb",
-      "apple-iphone-11-64gb",
-      "apple-iphone-11-pro-256gb",
-      "apple-iphone-11-pro-max-512gb",
-      "huawei-p30-lite-128gb",
-      "huawei-p30-pro-128gb",
-      "iphone-xr-256-gb",
-      "nokia-8",
-      "samsung-galaxy-note-10-plus-512"
-    ],
-    "importance": "high",
-    "text": "Toestellen zijn leuk voor u en de uwen",
-    "type": "device-promo"
-  }
+    {
+        "type": "top-banner-promo",
+        "orderTypes": [
+            "acquisition"
+        ],
+        "usps": [
+            "Razendsnel 4G & 5G internet",
+            "Blijf gaan met 24/7 premium service",
+            "Kies voor slimme producten"
+        ]
+    },
+    {
+        "type": "top-banner-promo",
+        "orderTypes": [
+            "retention"
+        ],
+        "usps": [
+            "Razendsnel 4G & 5G internet",
+            "Blijf gaan met 24/7 premium service",
+            "Wijzig je abonnement wanneer jij wilt"
+        ]
+    },
+    {
+        "type": "receipt-promo",
+        "location": "subscription",
+        "content": {
+            "description": "Apple TV+ (1e jaar cadeau)",
+            "price": "0,00"
+        },
+        "template": "/_includes/promo/iphone-apple-tv-discount.html",
+        "deviceVariantIds": [
+            "apple-iphone-se-64gb-black",
+            "apple-iphone-se-64gb-white",
+            "apple-iphone-se-64gb-red",
+            "apple-iphone-11-64gb-red",
+            "apple-iphone-11-64gb-yellow",
+            "apple-iphone-11-64gb-purple",
+            "apple-iphone-11-64gb-black",
+            "apple-iphone-11-64gb-white",
+            "apple-iphone-11-64gb-green",
+            "apple-iphone-11-128gb-red",
+            "apple-iphone-11-128gb-yellow",
+            "apple-iphone-11-128gb-purple",
+            "apple-iphone-11-128gb-black",
+            "apple-iphone-11-128gb-white",
+            "apple-iphone-11-128gb-green",
+            "apple-iphone-11-256gb-white",
+            "apple-iphone-11-256gb-black",
+            "apple-iphone-11-256gb-red",
+            "iphone-xr-64-gb-red",
+            "iphone-xr-64-gb-coral",
+            "iphone-xr-64-gb-blue",
+            "iphone-xr-64-gb-white",
+            "iphone-xr-64-gb-black",
+            "iphone-xr-64-gb-yellow",
+            "iphone-xr-128-gb-yellow",
+            "iphone-xr-128-gb-white",
+            "iphone-xr-128-gb-coral",
+            "iphone-xr-128-gb-red",
+            "iphone-xr-128-gb-blue",
+            "iphone-xr-128-gb-black",
+            "apple-iphone-se-128gb-black",
+            "apple-iphone-se-128gb-white",
+            "apple-iphone-se-128gb-red",
+            "apple-iphone-11-pro-max-64gb-midnight_green",
+            "apple-iphone-11-pro-max-64gb-gold",
+            "apple-iphone-11-pro-max-64gb-silver",
+            "apple-iphone-11-pro-max-64gb-space_grey",
+            "apple-iphone-se-256gb-black",
+            "apple-iphone-se-256gb-white",
+            "apple-iphone-se-256gb-red",
+            "iphone-xs-64-gb-silver",
+            "iphone-xs-64-gb-space_grey",
+            "iphone-xs-64-gb-gold",
+            "iphone-8-64-gb-gold",
+            "iphone-8-64-gb-silver",
+            "iphone-8-64-gb-space_grey",
+            "iphone-7-32-gb-rose_gold",
+            "iphone-7-32-gb-silver",
+            "iphone-7-32-gb-black",
+            "apple-iphone-11-pro-max-256gb-silver",
+            "apple-iphone-11-pro-max-256gb-space_grey",
+            "apple-iphone-11-pro-256gb-midnight_green",
+            "apple-iphone-11-pro-max-256gb-gold",
+            "apple-iphone-11-pro-max-512gb-space_grey",
+            "apple-iphone-11-pro-max-512gb-silver",
+            "apple-iphone-11-pro-max-512gb-gold",
+            "apple-iphone-11-pro-max-512gb-midnight_green",
+            "iphone-xs-max-256-gb-space_grey",
+            "iphone-xs-max-256-gb-gold",
+            "iphone-xs-max-256-gb-silver"
+        ]
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 216 korting",
+        "deviceVariantIds": [
+            "apple-iphone-11-64gb-purple",
+            "apple-iphone-11-64gb-green",
+            "apple-iphone-11-64gb-red",
+            "apple-iphone-11-64gb-yellow",
+            "apple-iphone-11-64gb-black",
+            "apple-iphone-11-64gb-white"
+        ],
+        "template": "/_includes/promo/iphone-11-64gb-discount.html",
+        "startTime": "2020-08-31 00:00"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 216 korting",
+        "deviceVariantIds": [
+            "apple-iphone-11-128gb-purple",
+            "apple-iphone-11-128gb-green",
+            "apple-iphone-11-128gb-red",
+            "apple-iphone-11-128gb-yellow",
+            "apple-iphone-11-128gb-black",
+            "apple-iphone-11-128gb-white"
+        ],
+        "template": "/_includes/promo/iphone-11-128gb-discount.html",
+        "startTime": "2020-08-31 00:00"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 216 korting",
+        "deviceVariantIds": [
+            "apple-iphone-11-256gb-red",
+            "apple-iphone-11-256gb-black",
+            "apple-iphone-11-256gb-white"
+        ],
+        "template": "/_includes/promo/iphone-11-256gb-discount.html",
+        "startTime": "2020-08-31 00:00"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 216 korting",
+        "deviceVariantIds": [
+            "samsung-galaxy-a51-black",
+            "samsung-galaxy-a51-blue",
+            "samsung-galaxy-a51-white"
+        ],
+        "startTime": "2020-08-31 00:00",
+        "template": "/_includes/promo/samsung-galaxy-a51-discount.html"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 192 korting",
+        "deviceVariantIds": [
+            "apple-iphone-se-64gb-black",
+            "apple-iphone-se-64gb-white",
+            "apple-iphone-se-64gb-red"
+        ],
+        "startTime": "2020-08-31 00:00",
+        "template": "/_includes/promo/iphone-se-64gb-discount.html"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 192 korting",
+        "deviceVariantIds": [
+            "apple-iphone-se-128gb-black",
+            "apple-iphone-se-128gb-white",
+            "apple-iphone-se-128gb-red"
+        ],
+        "startTime": "2020-08-31 00:00",
+        "template": "/_includes/promo/iphone-se-128gb-discount.html"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 240 korting",
+        "deviceVariantIds": [
+            "apple-iphone-se-256gb-black",
+            "apple-iphone-se-256gb-white",
+            "apple-iphone-se-256gb-red"
+        ],
+        "startTime": "2020-08-31 00:00",
+        "template": "/_includes/promo/iphone-se-256gb-discount.html"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu &euro; 50 retour",
+        "deviceVariantIds": [
+            "sony-xperia-10-II-128gb-black"
+        ],
+        "startTime": "2020-08-03 00:00",
+        "endTime": "2020-09-04 23:59",
+        "template": "/_includes/promo/xperia-10-ii-headset.html"
+    },
+    {
+        "type": "device-promo",
+        "text": "Nu tot &euro; 240 korting én &euro; 150 retour",
+        "deviceVariantIds": [
+            "sony-xperia-1-II-black"
+        ],
+        "startTime": "2020-08-31 00:00",
+        "endTime": "2020-10-04 23:59",
+        "template": "/_includes/promo/xperia-1-ii-discount.html"
+    },
+    {
+        "type": "subscription-promo",
+        "subscriptionIds": [
+            "red-essential"
+        ],
+        "text": "incl. &euro; 2 korting",
+        "startTime": "2020-07-27 00:00",
+        "endTime": "2020-08-30 23:59"
+    },
+    {
+        "type": "subscription-promo",
+        "subscriptionIds": [
+            "red"
+        ],
+        "text": "incl. &euro; 3 korting",
+        "startTime": "2020-07-27 00:00",
+        "endTime": "2020-08-30 23:59"
+    },
+    {
+        "type": "subscription-promo",
+        "subscriptionIds": [
+            "red-together"
+        ],
+        "text": "incl. &euro; 2 korting",
+        "startTime": "2020-07-27 00:00",
+        "endTime": "2020-08-30 23:59"
+    },
+    {
+        "type": "subscription-promo",
+        "subscriptionIds": [
+            "red-unlimited"
+        ],
+        "text": "incl. &euro; 5 korting",
+        "startTime": "2020-07-27 00:00",
+        "endTime": "2020-08-30 23:59"
+    },
+    {
+        "type": "receipt-promo",
+        "location": "subscription",
+        "content": {
+            "description": "5G",
+            "price": "0,00"
+        },
+        "template": "/_includes/promo/5g-ready.html",
+        "subscriptionIds": [
+            "red-unlimited",
+            "red-together",
+            "red",
+            "red-essential"
+        ],
+        "customerTypes": [
+            "converged",
+            "non-converged"
+        ],
+        "orderTypes": [
+            "acquisition"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "Razendsnel internetten met 5G",
+        "template": "/_includes/promo/5g-ready.html",
+        "subscriptionIds": [
+            "red-essential",
+            "red",
+            "red-together",
+            "red-unlimited"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "Onbeperkt: data, bellen en sms’en",
+        "template": "/_includes/usps/bel-en-data-bundel.html",
+        "subscriptionIds": [
+            "red-essential",
+            "red",
+            "red-together",
+            "red-unlimited"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "150 min. bellen/onbeperkt sms’en",
+        "template": "/_includes/usps/bel-en-data-bundel.html",
+        "subscriptionIds": [
+            "start-m",
+            "start-l",
+            "start-xl"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "5G add-on beschikbaar",
+        "template": "/_includes/usps/5g-addon-available.html",
+        "subscriptionIds": [
+            "start-m",
+            "start-l",
+            "start-xl"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "25 GB per maand in de EU",
+        "subscriptionIds": [
+            "red-unlimited"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "Eén grote databundel om te delen",
+        "template": "/_includes/usps/together-bundle.html",
+        "subscriptionIds": [
+            "red-together"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "Cadeautje! Verleng nu en krijg 1GB extra",
+        "subscriptionIds": [
+            "start-l",
+            "start-xl"
+        ],
+        "orderTypes": [
+            "retention"
+        ],
+        "customerTypes": [
+            "non-converged"
+        ]
+    },
+    {
+        "type": "subscription-usp",
+        "text": "Cadeautje! Verleng nu en krijg 5GB extra",
+        "subscriptionIds": [
+            "red",
+            "red-essential"
+        ],
+        "orderTypes": [
+            "retention"
+        ],
+        "customerTypes": [
+            "non-converged"
+        ]
+    },
+    
+    {
+        "type": "bundle-promo",
+        "text": "Cadeautje: extra data! Verleng nu en krijg elke maand 1 GB extra bij Start L en XL en 5 GB extra bij Red Essential en Red.",
+        "orderTypes": [
+            "retention"
+        ],
+        "customerTypes": [
+            "non-converged"
+        ],
+        "startTime": "2020-08-03 00:00",
+        "endTime": "2020-12-31 23:59"
+    }
 ]

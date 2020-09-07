@@ -1,4 +1,5 @@
-[
+{
+  "data": [
     {
         "type": "top-banner-promo",
         "orderTypes": [
@@ -351,4 +352,7 @@
         "startTime": "2020-08-03 00:00",
         "endTime": "2020-12-31 23:59"
     }
-]
+  ],
+  "error": {},
+  "status": 200
+}

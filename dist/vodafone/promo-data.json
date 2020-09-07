@@ -8,7 +8,7 @@
       "orderTypes": [
         "acquisition"
       ],
-      "popupContent": "<p>content</p>",
+      "popupContent": "<p><b>Hallo,</b></p><p><i>dsjdsjkdskds</i></p><p>&nbsp;</p><p>* blabla</p><p>* blabla&nbsp;</p>",
       "subscriptionIds": [
         "start-m",
         "start-xl",

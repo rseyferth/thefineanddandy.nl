@@ -1,0 +1,91 @@
+[
+  {
+    "customerTypes": [
+      "converged"
+    ],
+    "iconclass": "plus",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "popupContent": "<p>content</p>",
+    "subscriptionIds": [
+      "start-m",
+      "start-xl",
+      "red-essential"
+    ],
+    "text": "Nu met iets!",
+    "type": "subscription-usp"
+  },
+  {
+    "customerTypes": [
+      "non-converged"
+    ],
+    "endTime": "2020-09-30 22:00",
+    "importance": "medium",
+    "startTime": "2020-08-31 22:00",
+    "subscriptionIds": [
+      "start-xl",
+      "red",
+      "red-unlimited"
+    ],
+    "text": "Voor bij u thuis!",
+    "type": "subscription-promo"
+  },
+  {
+    "imageUrl": "/some/image/in/hawaii",
+    "importance": "low",
+    "type": "top-banner-promo",
+    "usps": [
+      "hello",
+      "sunshine",
+      "!"
+    ]
+  },
+  {
+    "customerTypes": [
+      "non-converged"
+    ],
+    "deviceIds": [
+      "apple-iphone-11-256gb",
+      "apple-iphone-11-64gb"
+    ],
+    "location": "top",
+    "orderTypes": [
+      "retention"
+    ],
+    "popupContent": "<p>korting!</p>",
+    "subscriptionIds": [
+      "red-together"
+    ],
+    "type": "receipt-promo"
+  },
+  {
+    "customerTypes": [
+      "non-converged"
+    ],
+    "endTime": "2020-09-01 22:00",
+    "importance": "medium",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "startTime": "2020-09-01 10:00",
+    "text": "Hundle Bundle Crundle Prundle",
+    "type": "bundle-promo"
+  },
+  {
+    "deviceIds": [
+      "apple-iphone-11-128gb",
+      "apple-iphone-11-64gb",
+      "apple-iphone-11-pro-256gb",
+      "apple-iphone-11-pro-max-512gb",
+      "huawei-p30-lite-128gb",
+      "huawei-p30-pro-128gb",
+      "iphone-xr-256-gb",
+      "nokia-8",
+      "samsung-galaxy-note-10-plus-512"
+    ],
+    "importance": "high",
+    "text": "Toestellen zijn leuk voor u en de uwen",
+    "type": "device-promo"
+  }
+]

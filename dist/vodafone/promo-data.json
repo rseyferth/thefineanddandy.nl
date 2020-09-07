@@ -57,6 +57,10 @@
       "subscriptionIds": [
         "red-together"
       ],
+      "content": {
+      	"description": "apple korting",
+      	"price": "-10,00"
+      },
       "type": "receipt-promo"
     },
     {

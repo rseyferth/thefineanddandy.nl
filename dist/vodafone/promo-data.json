@@ -50,7 +50,8 @@
       ],
       "location": "top",
       "orderTypes": [
-        "retention"
+        "retention",
+        "acquisition"
       ],
       "popupContent": "<p>korting!</p>",
       "subscriptionIds": [

@@ -201,9 +201,7 @@
         "subscriptionIds": [
             "red-essential"
         ],
-        "text": "incl. &euro; 2 korting",
-        "startTime": "2020-07-27 00:00",
-        "endTime": "2020-08-30 23:59"
+        "text": "incl. &euro; 2 korting"        
     },
     {
         "type": "subscription-promo",

@@ -2,6 +2,20 @@
   "data": [
     [
       {
+        "content": {
+          "description": "Nu abo goedkoop voor u en mij",
+          "price": "0,00"
+        },
+        "location": "subscription",
+        "subscriptionIds": [
+          "red-essential",
+          "red",
+          "red-together",
+          "red-unlimited"
+        ],
+        "type": "receipt-promo"
+      },
+      {
         "iconclass": "checkmark",
         "subscriptionIds": [
           "red-essential",
@@ -52,7 +66,10 @@
         ]
       },
       {
-        "content": {},
+        "content": {
+          "descriptiom": "iphone-korting",
+          "price": "-10,00"
+        },
         "customerTypes": [
           "non-converged"
         ],
@@ -65,10 +82,6 @@
         "subscriptionIds": [
           "red-together"
         ],
-        "content": {
-        	"descriptiom": "iphone-korting",
-        	"price": "-10,00"
-        },
         "type": "receipt-promo"
       },
       {

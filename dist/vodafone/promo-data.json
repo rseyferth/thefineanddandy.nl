@@ -112,6 +112,10 @@
         "popupContent": "<p><b>Hallo,</b></p><p><i>dsjdsjkdskds</i></p><p>&nbsp;</p><p>* blabla</p><p>* blabla&nbsp;</p>",
         "text": "Toestellen zijn leuk voor u en de uwen",
         "type": "device-promo"
+      },
+      {
+      	"type": "simonly-promo",
+      	"text": "sim-only man!"
       }
     ]
   ],

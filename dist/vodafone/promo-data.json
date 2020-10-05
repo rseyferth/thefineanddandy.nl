@@ -75,7 +75,11 @@
     "subscriptionId": "red",
     "text": "Nu iets duurder!",
     "type": "subscription-upsell-promo",
-    "upsellFromSubscriptionId": "red-essential"
+    "upsellFromSubscriptionId": "red-essential",
+    "customerTypes": [
+      "converged",
+      "non-converged"
+    ],
   },
   {
     "customerTypes": [

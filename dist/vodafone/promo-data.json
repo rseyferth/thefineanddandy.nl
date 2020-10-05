@@ -60,7 +60,7 @@
     "type": "subscription-usp"
   },
   {
-    "importance": "high",
+    "importance": "medium",
     "subscriptionIds": [
       "red-essential",
       "red",

@@ -1,124 +1,94 @@
-{
-  "data": [
-    [
-      {
-        "content": {
-          "description": "Nu abo goedkoop voor u en mij",
-          "price": "0,00"
-        },
-        "location": "subscription",
-        "subscriptionIds": [
-          "red-essential",
-          "red",
-          "red-together",
-          "red-unlimited"
-        ],
-        "type": "receipt-promo"
-      },
-      {
-        "iconclass": "checkmark",
-        "subscriptionIds": [
-          "red-essential",
-          "red",
-          "red-together",
-          "red-unlimited"
-        ],
-        "text": "tevens dit",
-        "type": "subscription-usp"
-      },
-      {
-        "customerTypes": [
-          "converged"
-        ],
-        "iconclass": "plus",
-        "orderTypes": [
-          "acquisition"
-        ],
-        "popupContent": "<p>content</p>",
-        "subscriptionIds": [
-          "start-m",
-          "start-xl",
-          "red-essential"
-        ],
-        "text": "Nu met iets!",
-        "type": "subscription-usp"
-      },
-      {
-        "endTime": "2020-09-30 22:00",
-        "importance": "medium",
-        "startTime": "2020-08-31 22:00",
-        "subscriptionIds": [
-          "start-xl",
-          "red",
-          "red-unlimited"
-        ],
-        "text": "Voor bij u thuis!",
-        "type": "subscription-promo"
-      },
-      {
-        "imageUrl": "/some/image/in/hawaii",
-        "importance": "low",
-        "type": "top-banner-promo",
-        "usps": [
-          "hello",
-          "sunshine",
-          "!"
-        ]
-      },
-      {
-        "content": {
-          "descriptiom": "iphone-korting",
-          "price": "-10,00"
-        },
-        "customerTypes": [
-          "non-converged"
-        ],
-        "deviceIds": [
-          "apple-iphone-11-256gb",
-          "apple-iphone-11-64gb"
-        ],
-        "location": "top",
-        "popupContent": "<p>korting!</p>",
-        "subscriptionIds": [
-          "red-together"
-        ],
-        "type": "receipt-promo"
-      },
-      {
-        "customerTypes": [
-          "non-converged"
-        ],
-        "importance": "medium",
-        "orderTypes": [
-          "acquisition"
-        ],
-        "startTime": "2020-09-01 10:00",
-        "text": "Hundle Bundle Crundle Prundle",
-        "type": "bundle-promo"
-      },
-      {
-        "deviceIds": [
-          "apple-iphone-11-128gb",
-          "apple-iphone-11-64gb",
-          "apple-iphone-11-pro-256gb",
-          "apple-iphone-11-pro-max-512gb",
-          "huawei-p30-lite-128gb",
-          "huawei-p30-pro-128gb",
-          "iphone-xr-256-gb",
-          "nokia-8",
-          "samsung-galaxy-note-10-plus-512"
-        ],
-        "importance": "high",
-        "popupContent": "<p><b>Hallo,</b></p><p><i>dsjdsjkdskds</i></p><p>&nbsp;</p><p>* blabla</p><p>* blabla&nbsp;</p>",
-        "text": "Toestellen zijn leuk voor u en de uwen",
-        "type": "device-promo"
-      },
-      {
-      	"type": "simonly-promo",
-      	"text": "sim-only man!"
-      }
+[
+  {
+    "customerTypes": [
+      "converged"
+    ],
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "popupContent": "<p style=\"text-align: center;\">hello</p><p style=\"text-align: center;\"> </p><p style=\"text-align: center;\">how are you</p>",
+    "text": "this is my bundle promo",
+    "type": "bundle-promo"
+  },
+  {
+    "customerTypes": [
+      "converged",
+      "non-converged"
+    ],
+    "endTime": "2020-09-30 11:27",
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "type": "top-banner-promo",
+    "usps": [
+      "Top Banner one",
+      "Top Banner two"
     ]
-  ],
-  "error": {},
-  "status": 200
-}
+  },
+  {
+    "content": {
+      "description": "Recipt Promo Top Special Apple 🍎 ",
+      "price": "0"
+    },
+    "customerTypes": [
+      "converged",
+      "non-converged"
+    ],
+    "deviceIds": [
+      "apple-iphone-se-64gb"
+    ],
+    "location": "top",
+    "orderTypes": [
+      "acquisition",
+      "retention"
+    ],
+    "popupContent": "<p>🍎 🍏 🍊 fruits</p>",
+    "subscriptionIds": [
+      "start-l",
+      "red"
+    ],
+    "type": "receipt-promo"
+  },
+  {
+    "popupContent": "",
+    "text": "Thbis is the Subscription USP Promo",
+    "type": "subscription-usp"
+  },
+  {
+    "importance": "high",
+    "subscriptionIds": [
+      "red-essential",
+      "red",
+      "red-unlimited"
+    ],
+    "text": "This is my subscription Promo",
+    "theme": "vfz-shit-css",
+    "type": "subscription-promo"
+  },
+  {
+    "importance": "high",
+    "subscriptionId": "red",
+    "text": "Nu iets duurder!",
+    "type": "subscription-upsell-promo",
+    "upsellFromSubscriptionId": "red-essential"
+  },
+  {
+    "customerTypes": [
+      "non-converged"
+    ],
+    "deviceIds": [
+      "apple-iphone-11-128gb",
+      "apple-iphone-11-256gb",
+      "apple-iphone-11-64gb"
+    ],
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "popupContent": "<p>- Blah</p><p>- More blah</p>",
+    "text": "This is the device promo",
+    "type": "device-promo"
+  }
+]

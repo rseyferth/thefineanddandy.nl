@@ -1,103 +1,97 @@
-{
-  "data": [
-    [
-      {
-        "customerTypes": [
-          "converged"
-        ],
-        "importance": "low",
-        "orderTypes": [
-          "acquisition"
-        ],
-        "popupContent": "<p style=\"text-align: center;\">hello</p><p style=\"text-align: center;\"> </p><p style=\"text-align: center;\">how are you</p>",
-        "text": "this is my bundle promo",
-        "type": "bundle-promo"
-      },
-      {
-        "customerTypes": [
-          "converged",
-          "non-converged"
-        ],
-        "endTime": "2020-09-30 11:27",
-        "importance": "low",
-        "orderTypes": [
-          "acquisition"
-        ],
-        "type": "top-banner-promo",
-        "usps": [
-          "Top Banner one",
-          "Top Banner two"
-        ]
-      },
-      {
-        "content": {
-          "description": "Recipt Promo Top Special Apple 🍎 ",
-          "price": "0"
-        },
-        "customerTypes": [
-          "converged",
-          "non-converged"
-        ],
-        "deviceIds": [
-          "apple-iphone-se-64gb"
-        ],
-        "location": "top",
-        "orderTypes": [
-          "acquisition",
-          "retention"
-        ],
-        "popupContent": "<p>🍎 🍏 🍊 fruits</p>",
-        "subscriptionIds": [
-          "start-l",
-          "red"
-        ],
-        "type": "receipt-promo"
-      },
-      {
-        "popupContent": "",
-        "subscriptionIds": [
-          "start-m"
-        ],
-        "text": "Thbis is the Subscription USP Promo",
-        "type": "subscription-usp"
-      },
-      {
-        "importance": "high",
-        "subscriptionIds": [
-          "red-essential",
-          "red",
-          "red-unlimited"
-        ],
-        "text": "This is my subscription Promo",
-        "theme": "vfz-shit-css",
-        "type": "subscription-promo"
-      },
-      {
-        "importance": "high",
-        "subscriptionId": "red",
-        "text": "Nu iets duurder!",
-        "type": "subscription-upsell-promo",
-        "upsellFromSubscriptionId": "red-essential"
-      },
-      {
-        "customerTypes": [
-          "non-converged"
-        ],
-        "deviceIds": [
-          "apple-iphone-11-128gb",
-          "apple-iphone-11-256gb",
-          "apple-iphone-11-64gb"
-        ],
-        "importance": "low",
-        "orderTypes": [
-          "acquisition"
-        ],
-        "popupContent": "<p>- Blah</p><p>- More blah</p>",
-        "text": "This is the device promo",
-        "type": "device-promo"
-      }
+[
+  {
+    "customerTypes": [
+      "converged"
+    ],
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "popupContent": "<p style=\"text-align: center;\">hello</p><p style=\"text-align: center;\"> </p><p style=\"text-align: center;\">how are you</p>",
+    "text": "this is my bundle promo",
+    "type": "bundle-promo"
+  },
+  {
+    "customerTypes": [
+      "converged",
+      "non-converged"
+    ],
+    "endTime": "2020-09-30 11:27",
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "type": "top-banner-promo",
+    "usps": [
+      "Top Banner one",
+      "Top Banner two"
     ]
-  ],
-  "error": {},
-  "status": 200
-}
+  },
+  {
+    "content": {
+      "description": "Recipt Promo Top Special Apple 🍎 ",
+      "price": "0"
+    },
+    "customerTypes": [
+      "converged",
+      "non-converged"
+    ],
+    "deviceIds": [
+      "apple-iphone-se-64gb"
+    ],
+    "location": "top",
+    "orderTypes": [
+      "acquisition",
+      "retention"
+    ],
+    "popupContent": "<p>🍎 🍏 🍊 fruits</p>",
+    "subscriptionIds": [
+      "start-l",
+      "red"
+    ],
+    "type": "receipt-promo"
+  },
+  {
+    "popupContent": "",
+    "subscriptionIds": [
+      "start-m"
+    ],
+    "text": "Thbis is the Subscription USP Promo",
+    "type": "subscription-usp"
+  },
+  {
+    "importance": "high",
+    "subscriptionIds": [
+      "red-essential",
+      "red",
+      "red-unlimited"
+    ],
+    "text": "This is my subscription Promo",
+    "theme": "vfz-shit-css",
+    "type": "subscription-promo"
+  },
+  {
+    "importance": "high",
+    "subscriptionId": "red",
+    "text": "Nu iets duurder!",
+    "type": "subscription-upsell-promo",
+    "upsellFromSubscriptionId": "red-essential"
+  },
+  {
+    "customerTypes": [
+      "non-converged"
+    ],
+    "deviceIds": [
+      "apple-iphone-11-128gb",
+      "apple-iphone-11-256gb",
+      "apple-iphone-11-64gb"
+    ],
+    "importance": "low",
+    "orderTypes": [
+      "acquisition"
+    ],
+    "popupContent": "<p>- Blah</p><p>- More blah</p>",
+    "text": "This is the device promo",
+    "type": "device-promo"
+  }
+]

@@ -7,7 +7,7 @@
     "orderTypes": [
       "acquisition"
     ],
-    "popupContent": "<p style=\"text-align: center;\">hello</p><p style=\"text-align: center;\"> </p><p style=\"text-align: center;\">how are you</p>",
+    "popupContent": "<h2>hello</h2><ol><li>Hier</li><li>Som</li><li>ik</li><li>op</li></ol><p style=\"text-align: center;\">Dit staat in het midden</p><p style=\"text-align: left;\"><b>dik&nbsp;<i>italiaans m<u>et een streep</u></i></b></p>",
     "text": "this is my bundle promo",
     "type": "bundle-promo"
   },
@@ -75,11 +75,7 @@
     "subscriptionId": "red",
     "text": "Nu iets duurder!",
     "type": "subscription-upsell-promo",
-    "upsellFromSubscriptionId": "red-essential",
-    "customerTypes": [
-      "converged",
-      "non-converged"
-    ]
+    "upsellFromSubscriptionId": "red-essential"
   },
   {
     "customerTypes": [

@@ -84,41 +84,6 @@
     "type": "receipt-promo"
   },
   {
-    "content": {
-      "description": "Ziggo korting",
-      "price": "-5,00"
-    },
-    "customerTypes": [
-      "converged"
-    ],
-    "location": "subscription",
-    "popupContent": "",
-    "subscriptionIds": [
-      "red-essential",
-      "red",
-      "red-together",
-      "red-unlimited"
-    ],
-    "type": "receipt-promo"
-  },
-  {
-    "content": {
-      "description": "Ziggo korting",
-      "price": "-2,50"
-    },
-    "customerTypes": [
-      "converged"
-    ],
-    "location": "subscription",
-    "popupContent": "",
-    "subscriptionIds": [
-      "start-m",
-      "start-l",
-      "start-xl"
-    ],
-    "type": "receipt-promo"
-  },
-  {
     "iconClass": "checkmark",
     "popupContent": "<h1>Bel- en databundel geldig binnen EU</h1><p>Red Unlimited abonnement binnen NL en EU</p><ul><li>Met een Red Unlimited abonnement krijg je elke dag 5GB data. Ben je door deze data heen, dan activeren we automatisch nog 1GB. Nog meer internetten? In My Vodafone kun je gratis en onbeperkt steeds 1GB extra activeren.</li><li>Buiten Nederland en in de EU geldt een limiet van 25GB per maand. Je ontvangt geen dubbele data als Ziggo klant.</li><li>Bij een Red Unlimited abonnement bel je onbeperkt vanuit Nederland naar nummers in de EU.</li></ul><p>Start, Red Essential, Red en Red Together abonnement binnen de EU</p><ul><li>Bij Start abonnementen valt bellen vanuit Nederland naar EU-nummers niet binnen je bundel.</li><li>Bij Red abonnementen vallen de eerste 100 belminuten vanuit Nederland naar nummers in de EU binnen je abonnement.</li></ul><p><a href=\"https://www.vodafone.nl/support/abonnement-en-rekening/bellen-naar-het-buitenland.shtml\">Lees hier meer</a> over bellen naar nummers binnen de EU.</p><p>Ben je Ziggo-klant, dan krijg je non-stop gratis extra’s zoals Dubbele data. Een deel van die Dubbele data kun je in de EU gebruiken.</p><ul><li>Met Red Essential en de Start abonnementen mag je alle Dubbele data in de EU gebruiken.</li><li>Bij een Red, Red Together of Red Together Extra abonnement geldt een limiet van 20GB per maand.</li></ul><p>Om misbruik in het buitenland te voorkomen geldt een <a href=\"https://www.vodafone.nl/abonnement/sim-only/redelijk-gebruik/\">Fair Use Policy (FUP)</a></p>",
     "subscriptionIds": [

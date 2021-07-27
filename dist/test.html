@@ -5,7 +5,7 @@
 
 	const redirect_uri = urlParams.get('redirect_uri')
 
-	document.getElementById('uri').innerHtml = redirect_uri;
+	document.getElementById('uri').textContent = redirect_uri;
 
 	function redirect() {
 		document.location = redirect_uri;

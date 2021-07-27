@@ -1,4 +1,5 @@
-<h2>redirecting to: <span id="uri"></span>, in 1 second</h2>
+<h2>redirecting to: <span id="uri"></span></h2>
+<button onclick="redirect">Do redirect</button>
 <script>
 	const urlParams = new URLSearchParams(window.location.search);
 
@@ -6,7 +7,7 @@
 
 	document.getElementById('uri').innerHtml = redirect_uri;
 
-	window.setTimeout(() => {
+	function redirect() {
 		document.location = redirect_uri;
-	}, 1000)
+	}
 </script>

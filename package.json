@@ -15,7 +15,7 @@
   "author": "Erik Seyferth <erik@goatproductions.nl> (http://goatproductions.nl)",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "normalize.css": "^8.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
